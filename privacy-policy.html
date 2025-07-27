@@ -3,54 +3,157 @@
 <head>
   <meta charset="UTF-8">
   <title>Privacy Policy - Fastest Finger First</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #68c1e7;
+      --accent: #1c2933;
+      --bg: #10171d;
+      --card-bg: #16222b;
+      --text: #fff;
+      --heading: #68c1e7;
+      --border-radius: 18px;
+      --shadow: 0 4px 16px rgba(0,0,0,0.2);
+    }
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.7;
+    }
+    .privacy-card {
+      max-width: 500px;
+      background: var(--card-bg);
+      margin: 40px auto;
+      padding: 32px 24px;
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+      border: 2px solid var(--primary);
+      position: relative;
+    }
+    .app-logo {
+      display: block;
+      margin: 0 auto 18px auto;
+      width: 76px;
+      height: 76px;
+      border-radius: 18px;
+      border: 4px solid var(--primary);
+      background: #fff;
+      object-fit: contain;
+      box-shadow: 0 2px 8px rgba(104,193,231,.16);
+    }
+    h1 {
+      text-align: center;
+      color: var(--heading);
+      font-size: 1.85rem;
+      margin-bottom: 0.5em;
+    }
+    h2 {
+      color: var(--primary);
+      font-size: 1.17rem;
+      margin-top: 1.7em;
+      margin-bottom: 0.3em;
+      border-bottom: 1px solid var(--primary);
+      padding-bottom: .15em;
+    }
+    p, ul {
+      font-size: 1.05em;
+    }
+    ul {
+      padding-left: 1.3em;
+      margin-top: 0.2em;
+      margin-bottom: 0.5em;
+    }
+    .contact {
+      background: var(--accent);
+      padding: 1em;
+      border-radius: 10px;
+      margin: 1.3em 0;
+      border-left: 4px solid var(--primary);
+      word-break: break-all;
+    }
+    .updated {
+      text-align: right;
+      color: #bbb;
+      font-size: 0.97em;
+      margin-top: 2em;
+    }
+    @media (max-width: 600px) {
+      .privacy-card {
+        padding: 18px 4vw;
+        max-width: 98vw;
+      }
+      .app-logo {
+        width: 66px; height: 66px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>Privacy Policy for Fastest Finger First</h1>
-  <p><strong>Effective Date:</strong> July 27, 2025</p>
-  1. Introduction
+  <div class="privacy-card">
+    <img class="app-logo" src="icon_512.jpg" alt="Fastest Finger First App Icon">
+    <h1>Privacy Policy</h1>
+    <p><strong>Effective Date:</strong> July 27, 2025</p>
 
-This Privacy Policy explains how we collect, use, and disclose information from users of the “Fastest Finger First” app.
+    <h2>1. Introduction</h2>
+    <p>
+      This Privacy Policy explains how we collect, use, and disclose information from users of the <b>Fastest Finger First</b> app.
+    </p>
 
-2. Data Collection
+    <h2>2. Data Collection</h2>
+    <ul>
+      <li>
+        <b>Google AdMob</b><br>
+        <i>Data Collected:</i> Approximate location, device information, ad interactions.<br>
+        <i>Purpose:</i> Advertising and ad performance.
+      </li>
+      <li>
+        <b>Firebase (Analytics &amp; Crashlytics)</b><br>
+        <i>Data Collected:</i> App usage data, crash reports.<br>
+        <i>Purpose:</i> Improve app performance, detect and fix issues.
+      </li>
+    </ul>
 
-We use third-party services that may collect information used to identify you:
+    <h2>3. Data Usage</h2>
+    <ul>
+      <li>Improve the app’s performance and user experience.</li>
+      <li>Deliver relevant ads.</li>
+      <li>Monitor app health and fix bugs.</li>
+    </ul>
 
-Google AdMob
-Data Collected: Approximate location, device information, ad interactions
-Purpose: Advertising and ad performance
-Firebase (Analytics & Crashlytics)
-Data Collected: App usage data, crash reports
-Purpose: Improve app performance, detect and fix issues
-3. Data Usage
+    <h2>4. Data Sharing</h2>
+    <ul>
+      <li>Google AdMob for ad display and targeting.</li>
+      <li>Firebase for analytics and crash reporting.</li>
+      <li><b>We do not sell your data.</b></li>
+    </ul>
 
-All data collected is used to:
+    <h2>5. Security</h2>
+    <p>
+      All data is encrypted in transit. We follow industry best practices to safeguard your information.
+    </p>
 
-Improve the app’s performance and user experience
-Deliver relevant ads
-Monitor app health and fix bugs
-4. Data Sharing
+    <h2>6. Children’s Privacy</h2>
+    <p>
+      This app does not knowingly collect personal data from children under 13.
+    </p>
 
-Data may be shared with:
+    <h2>7. Contact</h2>
+    <div class="contact">
+      <b>Email:</b> arunbadole1209@gmail.com
+    </div>
 
-Google AdMob for ad display and targeting
-Firebase for analytics and crash reporting
-We do not sell your data.
+    <h2>8. Changes to This Policy</h2>
+    <p>
+      This policy may be updated periodically. Changes will be posted on this page.
+    </p>
 
-5. Security
-
-All data is encrypted in transit. We follow industry best practices to safeguard your information.
-
-6. Children’s Privacy
-
-This app does not knowingly collect personal data from children under 13.
-
-7. Contact
-
-For any privacy-related concerns, you can contact us at:
-📧 arunbadole@gmail.com
-
-8. Changes to This Policy
-
-This policy may be updated periodically. Changes will be posted on this page.
+    <div class="updated">Last updated: July 27, 2025</div>
+  </div>
 </body>
 </html>
+
